@@ -5,6 +5,6 @@ import org.testng.annotations.Test;
 public class test1 {
   @Test
   public void f() {
-	  System.out.println("First Test NG1");
+	  System.out.println("First Test NG1-Updated");
   }
 }
