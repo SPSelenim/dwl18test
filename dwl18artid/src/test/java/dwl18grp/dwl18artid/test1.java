@@ -9,7 +9,7 @@ public class test1 {
 	 
 	@Test
   public void f() {
-	  System.out.println("First Test NG1-Updated_Final_SubFinal");
+	  System.out.println("First Test NG1-Updated_Final_SubFinal - DOOONe");
 	  System.setProperty("webdriver.chrome.driver","C:\\Satish\\RPMXAUTOMATION2\\RPMXV1\\RPMX_4\\BrowserDrivers\\chromedriver.exe");
 	   
 	  driver=new ChromeDriver();
