@@ -1,5 +1,6 @@
 package dwl18grp.dwl18artid;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -15,6 +16,8 @@ public class test1 {
 	  driver=new ChromeDriver();
 	  driver.get("http://www.google.com");
  driver.manage().window().maximize();
+ driver.findElement(By.name("q")).sendKeys("test1 2	33");
+ System.out.println("ENTERED");
  driver.close();
   }
 }
