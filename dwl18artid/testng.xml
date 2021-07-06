@@ -3,7 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="dwl18grp.dwl18artid.AppTest"/>
       <class name="dwl18grp.dwl18artid.test2"/>
       <class name="dwl18grp.dwl18artid.test1"/>
     </classes>
